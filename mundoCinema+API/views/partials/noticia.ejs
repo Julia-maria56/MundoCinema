@@ -1,0 +1,15 @@
+<main>
+    <section id="inicio">
+        <img id="foto" src = "<%= noticia.imagem %>">
+        <div id="titulo"><%= noticia.titulo %></div>
+    </section>
+    <section id="noticia">
+        <div class="resumo-noticia"><%= noticia.resumo %></div>
+        <div class="noticia">
+            <div class="noticia">
+                <%- noticia.conteudo.replace(/<\/?p>/g, '<p></p><br><p>') %>
+            </div>
+        </div>
+    </section>
+    
+</main>

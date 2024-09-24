@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <title>MundoCinema</title>
+</head>
+<body>
+    
+
+    <section id="fundo1" style="background-image: url('./images/fundo.png');">
+    <header>
+        <div class="container">
+            <ul>           
+                <a href="#noticias">
+                    <li>Notícias</li>
+                </a>
+                <a href="#colecoes">
+                    <li>Coleções</li>
+                </a>
+                <a onclick="Sobrenos()">
+                    <li>Sobre Nós</li>
+                </a>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+
+        <div id="titulo-fundo">
+            <h1>MundoCinema</h1>
+        </div>
+    </section> 
+
+
+    <section id="noticias">
+        <p id="noticias-titulo">Notícias</p>
+        <div class="linha"></div>
+
+        <div class="news" id="marilyn">
+            <img src="./images/marilyn.png" id="foto">
+            <div class="infos">
+                <p class="titulo-news">Marilyn Monroe e Jesus Cristo</p>
+                <p class="resumo">Como uma mulher da extrema pobreza se lançou como uma das mulheres mais belas do mundo e foi lançada como um padrão de feminilidade a ser alcançado?</p>
+                <button onclick="Marilyn()" class="retangulo-botao">Veja Mais</a>
+            </div>
+        </div>
+
+        <div class="news">
+            <img src="./images/carmen.png" id="foto">
+            <div class="infos">
+                <p class="titulo-news">Por que o Brasil odiava Carmen Miranda?</p>
+                <p class="resumo">Carmen foi um exemplo de brasileira que ganhou o mundo. Mas a forma com a qual sua fama foi conquistada em Hollywood, não agradou os brasileiros.</p>
+                <button onclick="Carmen()" class="retangulo-botao">Veja Mais</a>
+            </div>
+        </div>
+
+        <div class="news">
+            <img src="./images/barbra.png" id="foto">
+            <div class="infos">
+                <p class="titulo-news">Por que odiamos nosso próprio nariz?</p>
+                <p class="resumo">A indústria cultural vem constantemente impondo a ideia de que certos padrões de beleza são “certos” e devem ser seguidos, e um aspecto é muito levado em consideração: o nariz</p>
+                <button onclick="Nariz()"class="retangulo-botao">Veja Mais</a>
+            </div>
+        </div>
+
+        <div class="news">
+            <img src="./images/bruxa.png" id="foto">
+            <div class="infos">
+                <p class="titulo-news">O mito de que o passado era melhor</p>
+                <p class="resumo">Qual a relação entre o capitalismo e a indústria cultural? E por que atualmente temos sido bombardeados por remakes e continuações?</p>
+                <button onclick="Passado()"class="retangulo-botao">Veja Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="mundocinema">
+        <p id="titulo-mundo">MundoCinema</p>
+        <p id="sobre">Descobrindo a forma com que o cinema tem moldado a visão da sociedade ocidental</p>
+    </section>
+
+    <section id="colecoes">
+        <p id="noticias-titulo">Coleções</p>
+        <div class="linha"></div>
+
+        <div class="colecoes">
+
+            <div class="colecao">
+                <img src="./images/hattie.png">
+                <p class="colecao-titulo">Hattie McDaniel</p>
+                <p class="colecao-informacao">A atriz foi a primeira pessoa negra a ganhar um oscar pelo seu papel de Mammy, em “E o vento levou”. Como o hotel em que o evento ocorria não aceitava negros, ela teve que sentar nos fundos, isolada dos brancos.</p>
+            </div>
+            <div class="colecao">
+                <img id="desajustados" src="./images/desajustados.png">
+                <p class="colecao-titulo">“Os desajustados”</p>
+                <p class="colecao-informacao">Desejando dar uma repaginada em sua imagem, Marilyn se envolveu em um novo projeto com seu marido: “Os desajustados”. Porém, ela acabou sendo sexualizada novamente e, no meio das gravações, foi internada em uma clínica psiquiátrica sob falsas alegações</p>
+            </div>
+            <div class="colecao">
+                <img src="./images/dorothy.jpg">
+                <p class="colecao-titulo">Judy Garland</p>
+                <p class="colecao-informacao">Nas gravações de “O mágico de Oz”, Judy, de apenas 16 anos, foi inúmeras vezes abusada sexualmente, submetida a uma mistura de anfetaminas e de pílulas para dormir, com uma dieta baseada em cigarros, para manter o peso.</p>
+            </div>
+        </div>
+    </section>
+    </main>
+    <%- include('./partials/footer') %>
+    <script src="./javascripts/carmen.js"></script>
+    <script src="./javascripts/marilyn.js"></script>
+    <script src="./javascripts/nariz.js"></script>
+    <script src="./javascripts/passado.js"></script>
+    <script src="./javascripts/sobrenos.js"></script>
+</body>
+</html>

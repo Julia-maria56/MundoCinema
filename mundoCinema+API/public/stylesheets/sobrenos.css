@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    max-width: 3000px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Rosario", sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    font-family: Rosario;
+    font-weight: 600;
+    color: #fcfcfc;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+ul {
+    list-style-type: none; /* Remove o ponto da lista */
+}
+
+ul li a {
+    color: #fefcfc;
+    text-decoration-line: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight:900;
+
+}
+
+a {
+    color: #fefcfc;
+    text-decoration-line: none;
+    cursor: pointer;
+
+}
+
+#infos {
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: row;
+}
+
+.sobrenos {
+    width: 60%;
+    height:100vh;
+    color: #fefcfc;
+}
+
+#titulo {
+    font-weight: bold;
+    font-size: 75px;
+    text-align: center;
+    margin-top: 115px;
+}
+
+img {
+    height: 100vh;
+    padding:0;
+}
+
+#sobrenos {
+    padding-right: 100px;
+    padding-left: 130px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+
+footer{
+    margin-top:0;
+    height:100px;
+    background-color: #1E1E1E;
+}
+
+footer p{
+    color:white;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 40px;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    max-width: 3000px;
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    font-family: "Rosario", sans-serif;
+}
+
+
+#inicio{
+    line-height: normal;
+}
+
+#inicio img {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    padding: 0;
+}
+
+
+#titulo {
+    font-size: 38px;
+    height: 72px;
+    background-color: #1E1E1E;
+    color:white;
+    font-weight: 800;
+    text-align: center;
+    padding-top:15px;
+}
+
+#noticia{
+    margin-right:220px;
+    margin-left: 220px;
+}
+
+.resumo-noticia{
+    font-weight: 800;
+    font-size: 20px;
+    margin-top:30px;
+}
+
+.noticia{
+    margin-top:50px;
+    font-size: 23px;
+    text-align: left; 
+}

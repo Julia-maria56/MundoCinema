@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    max-width: 3000px;
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    font-family: "Rosario", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+/* --Imagem Fundo */
+
+#fundo1{
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;  
+    height: 735px;  
+}
+
+/* --Estilo Menu */
+
+header{
+    font-family: Rosario;
+    font-weight: 600;
+    padding: 40px 4%;
+    color: #fcfcfc;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.container{
+ 
+    max-width: 1280px;
+    margin: 0 auto;
+   
+
+}
+
+header > .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-weight:900;
+}
+
+ul li a {
+    color: #fefcfc;
+    text-decoration-line: none;
+    cursor: pointer; 
+}
+
+a{
+    color: #fefcfc;
+    text-decoration-line: none ;
+    cursor: pointer; 
+}
+
+
+#fundo1{
+    width: 100%;
+	height: 100vh;
+}
+
+
+
+#titulo-fundo{
+    line-height: 65px;
+    color: #fcfcfc;
+    margin-right: 60px;
+    margin-top:200px;
+    font-weight: bold;
+    font-size:90px;
+}
+
+h1{
+    font-family: Rosario;
+    font-weight: 700;
+    font-size: 70px;   
+}
+
+main{
+    text-align: center;
+}
+
+
+#noticias{
+    display: flex;
+    flex-direction: column;
+    margin-top:100px;
+    margin-left:180px; 
+    margin-right:180px; 
+}
+
+#noticias-titulo{
+    font-weight: bold;
+    font-size: 35px;
+    margin-left:5px; 
+}
+
+
+.linha{
+    border-top: 3px solid black;
+    margin-top: 3px;  
+}
+
+.news{
+    margin-top:120px;
+    display: flex;
+    flex-direction: row;
+}
+
+#marilyn{
+    margin-top:60px;
+}
+
+#foto{
+    width:40%;
+}
+
+.infos{
+    display:flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 30px;
+}
+
+.titulo-news{
+    font-size:28px;
+    font-weight: bold;
+}
+
+.resumo{
+    margin-top:40px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.retangulo-botao{
+    width: 110px; 
+    padding: 10px;  
+    background-color: #D9D9D9;
+    color: black;
+    border: none;
+    border-radius: 60px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    margin-top:35px;
+    font-weight:800;
+}
+
+#mundocinema{
+    background-color: #1e1e1e;
+    height:400px;
+    margin-top:200px;
+    text-align: center;
+    color: #fcfcfc;
+}
+
+#titulo-mundo{
+    font-weight: bold;
+    font-size:65px;
+    padding-top:60px;
+}
+
+#sobre{
+    font-weight: 500;
+    font-size: 30px;
+    margin-top:90px;
+}
+
+#colecoes{
+    margin-top:100px;
+    margin-left:180px; 
+    margin-right:180px; 
+}
+
+.colecoes{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.colecao{
+    display:flex;
+    flex-direction: column;
+    padding-right: 60px;
+    margin-top:60px;
+}
+
+.colecao-titulo{
+    font-weight: 800;
+    font-size:23px;
+    padding-top: 20px;
+}
+
+.colecao-informacao{
+    padding-top:10px;
+    font-weight: 600;
+}
+
+.colecao img{
+    width:290px;
+    height:390px;
+}
+
+#desajustados{
+    height: 450px;
+}
+
+footer{
+    margin-top:240px;
+    height:100px;
+    background-color: #1E1E1E;
+}
+
+footer p{
+    color:white;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 40px;
+}
