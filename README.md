@@ -36,3 +36,29 @@
         <img width="80%" src="https://github.com/user-attachments/assets/71383fc1-a5e7-48f8-a379-cd7483f3886e">
     </div>
 </div>
+
+<div>
+    <h2>🎥:: Notícias</h2>
+    <div align="center" >
+        <img width="80%" src="https://github.com/user-attachments/assets/0339bbd4-3740-4eed-8460-4bb28f42797d">
+    </div>
+</div>
+
+<div>
+    <h2>🎥:: Acesso ao MundoCinema</h2>
+    <p> 1°: faça o download do repositório</p>
+    <div align="center" >
+        <img width="80%" src="https://github.com/user-attachments/assets/42866526-73e8-4c49-85c4-f61e44c8cb9d">
+    </div>
+    <p> 2°: Abra os arquivos "API" e "mundoCinema+API" em páginas diferentes do vscode </p>
+    <div align="row" >
+        <img width="50%" src="https://github.com/user-attachments/assets/4959f729-915a-4b0a-b2f1-470a898bfdbf">
+        <img width="30%" src="https://github.com/user-attachments/assets/f7b92bd5-332e-49d5-9815-61cc91e76b76">
+    </div>
+
+
+
+
+</div>
+
+
