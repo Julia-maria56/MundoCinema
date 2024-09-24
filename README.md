@@ -50,15 +50,24 @@
     <div align="center" >
         <img width="80%" src="https://github.com/user-attachments/assets/42866526-73e8-4c49-85c4-f61e44c8cb9d">
     </div>
+    ---------------------------------------------------------------------------------------------------------------------------------
     <p> 2°: Abra os arquivos "API" e "mundoCinema+API" em páginas diferentes do vscode </p>
     <div align="row" >
         <img width="50%" src="https://github.com/user-attachments/assets/4959f729-915a-4b0a-b2f1-470a898bfdbf">
         <img width="30%" src="https://github.com/user-attachments/assets/f7b92bd5-332e-49d5-9815-61cc91e76b76">
     </div>
+    ---------------------------------------------------------------------------------------------------------------------------------
+    <p> 3°: Digite "node app" no terminal dos dois arquivos do vs code</p>
+    <div >
+        <img width="50%" src="https://github.com/user-attachments/assets/37209eab-41be-4160-81ff-770f00c1b7f7">
+        <img width="30%" src="https://github.com/user-attachments/assets/ea8ecad4-669c-4f38-a4b2-34a046c03821">
+    </div>
+    ---------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
 
 </div>
 
-
+ 
