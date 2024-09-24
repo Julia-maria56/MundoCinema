@@ -4,8 +4,6 @@
 
 <img width="80%" src="https://github.com/user-attachments/assets/aee216b2-775c-4025-83ad-24468143f53b">
 
-<a href="https://cam1ss.github.io/Portifolio-Meu/"  target="_blank">link para acessar o site</a>
-
 </div>
 
 <div>
@@ -15,6 +13,8 @@
 <strong> → Professor :</strong>  José Roberto Bezerra
 
 <strong> → Período :</strong> <a> P5 - 2024.1 </a> 
+
+<strong> → Matéria :</strong> <a> Programação Web I </a> 
 
 <strong> → Plataformas utilizadas :</strong>
 <div align="center">
@@ -28,4 +28,11 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo"  />
+</div>
+
+<div >
+    <h2>🎥:: Sobre nós</h2>
+    <div align="center" >
+        <img width="80%" src="https://github.com/user-attachments/assets/71383fc1-a5e7-48f8-a379-cd7483f3886e">
+    </div>
 </div>
